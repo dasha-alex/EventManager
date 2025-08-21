@@ -6,6 +6,7 @@
 int main() {
     try {
         std::string filename;
+        std::cout << "Enter file name: ";
         std::cin >> filename;
         EventManager manager(filename);
 
